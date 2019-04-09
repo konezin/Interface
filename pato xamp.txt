@@ -1,0 +1,12 @@
+create database "pizzaria";
+use database "pizzaria";
+
+create table "cliente"(
+id int not null auto_increment,
+nome varchar(50),
+telefone varchar(10),
+celular varchar(10),
+endereço varchar(50),
+numero varchar(11),
+cep varchar(11),
+primary key(id)); 
